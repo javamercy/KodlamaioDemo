@@ -2,8 +2,6 @@ namespace Entity.Concretes;
 
 public class Entity<TId>
 {
-    public TId Id { get; set; }
-
     public Entity()
     {
     }
@@ -12,4 +10,6 @@ public class Entity<TId>
     {
         Id = id;
     }
+
+    public TId Id { get; set; }
 }
